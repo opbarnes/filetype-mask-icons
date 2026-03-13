@@ -6,6 +6,7 @@ These icons inherit color from `currentColor`, which allows them to automaticall
 
 The icons are intentionally minimal and intended to represent common file types in interfaces such as file browsers, dashboards, and developer tools.
 
+
 ---
 
 # Quick Example
@@ -27,6 +28,22 @@ The icons are intentionally minimal and intended to represent common file types 
 ```
 
 The icon color is inherited from `currentColor`, which means it automatically adapts to your theme.
+
+---
+
+# Demo
+
+A live demo of the icons is available here:
+
+<https://opbarnes.github.io/filetype-mask-icons/demo/>
+
+The demo shows:
+
+- All available icons
+- Multiple icon sizes
+- Light and dark theme behavior
+
+This allows you to see exactly how the icons render and how they inherit color from `currentColor`.
 
 ---
 
