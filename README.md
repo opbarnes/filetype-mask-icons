@@ -17,16 +17,6 @@ The icons are intentionally minimal and intended to represent common file types 
 </div>
 ```
 
-```css
-.filetype-mask-icon{
-  display:inline-block;
-  background:currentColor;
-  mask:var(--icon) center / contain no-repeat;
-  -webkit-mask:var(--icon) center / contain no-repeat;
-  mask-mode:luminance;
-}
-```
-
 The icon color is inherited from `currentColor`, which means it automatically adapts to your theme.
 
 ---
@@ -63,18 +53,6 @@ Because of this:
 - They work with **light and dark themes**
 - They can be styled with **hover effects, transitions, or theme variables**
 - No separate dark/light icon sets are required
-
-Example theme:
-
-```css
-.light {
-  color: black;
-}
-
-.dark {
-  color: white;
-}
-```
 
 The icon automatically adapts to the theme.
 
@@ -209,12 +187,12 @@ The icon color comes from `currentColor`.
 Example:
 
 ```css
-.file {
-  color: #444;
+.theme-light {
+  color: black;
 }
 
-.dark .file {
-  color: #eee;
+.theme-dark {
+  color: white;
 }
 ```
 
