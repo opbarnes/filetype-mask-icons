@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Icons Test</title>
+
+<link href="../css/icons.css" rel="stylesheet" />
+
+<style>
+
+body{
+font-family:sans-serif;
+margin:40px;
+transition:background .3s,color .3s;
+}
+
+.light{
+background:#ffffff;
+color:#000000;
+}
+
+.dark{
+background:#111111;
+color:#ffffff;
+}
+
+.controls{
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+gap:25px;
+}
+
+.icon-set{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.row{
+display:flex;
+gap:10px;
+align-items:center;
+}
+
+.size16{width:16px;height:16px;}
+.size24{width:24px;height:24px;}
+.size32{width:32px;height:32px;}
+.size48{width:48px;height:48px;}
+.size64{width:64px;height:64px;}
+.size96{width:96px;height:96px;}
+
+</style>
+</head>
+
+<body class="light">
+
+<div class="controls">
+<button onclick="document.body.className='light'">Light Mode</button>
+<button onclick="document.body.className='dark'">Dark Mode</button>
+</div>
+
+<div class="grid">
+
+<div class="icon-set">
+<strong>file</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-file)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-file)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-file)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-file)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-file)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-file)"></div>
+</div>
+</div>
+
+<div class="icon-set">
+<strong>folder</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-folder)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-folder)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-folder)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-folder)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-folder)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-folder)"></div>
+</div>
+</div>
+
+<div class="icon-set">
+<strong>image</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-image)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-image)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-image)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-image)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-image)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-image)"></div>
+</div>
+</div>
+
+<div class="icon-set">
+<strong>zip</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-zip)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-zip)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-zip)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-zip)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-zip)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-zip)"></div>
+</div>
+</div>
+
+<div class="icon-set">
+<strong>code</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-code)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-code)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-code)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-code)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-code)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-code)"></div>
+</div>
+</div>
+
+<div class="icon-set">
+<strong>video</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-video)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-video)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-video)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-video)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-video)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-video)"></div>
+</div>
+</div>
+
+<div class="icon-set">
+<strong>audio</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-audio)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-audio)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-audio)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-audio)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-audio)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-audio)"></div>
+</div>
+</div>
+
+<div class="icon-set">
+<strong>doc</strong>
+<div class="row">
+<div class="filetype-mask-icon size16" style="--icon:var(--filetype-mask-icon-doc)"></div>
+<div class="filetype-mask-icon size24" style="--icon:var(--filetype-mask-icon-doc)"></div>
+<div class="filetype-mask-icon size32" style="--icon:var(--filetype-mask-icon-doc)"></div>
+<div class="filetype-mask-icon size48" style="--icon:var(--filetype-mask-icon-doc)"></div>
+<div class="filetype-mask-icon size64" style="--icon:var(--filetype-mask-icon-doc)"></div>
+<div class="filetype-mask-icon size96" style="--icon:var(--filetype-mask-icon-doc)"></div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

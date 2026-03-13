@@ -1,0 +1,18 @@
+:root{
+--filetype-mask-icon-file:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M6 2h9l5 5v15H6z'/></svg>");
+--filetype-mask-icon-folder:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M3 6h6l2 2h10v10H3z'/></svg>");
+--filetype-mask-icon-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='4' y='4' width='16' height='16' rx='1.5' ry='1.5' fill='white'/><path fill='black' d='M7 13l2-2 4 4 3-3 3 4H5z'/></svg>");
+--filetype-mask-icon-zip:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M6 2L15 2L20 7L20 22L6 22Z'/><rect x='12.3' y='4.7' width='1' height='10.1' rx='0.2' fill='black'/><rect x='12.7' y='5.9' width='3' height='1.2' rx='0.15' fill='black'/><rect x='10' y='7.9' width='3' height='1.2' rx='0.15' fill='black'/><rect x='12.7' y='10' width='3' height='1.2' rx='0.15' fill='black'/><rect x='10' y='11.9' width='3' height='1.2' rx='0.15' fill='black'/><rect x='11.2' y='14.5' width='3.3' height='1.2' rx='0.15' fill='black'/><path fill='black' d='M10.56 19.52L11.77 15.6H13.83L15.04 19.52Z'/></svg>");
+--filetype-mask-icon-code:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M6 2h9l5 5v15H6z'/><g fill='none' stroke='black' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'><polyline points='14.5 14.5 17.5 12 14.5 9.5'/><polyline points='11.5 9.5 8.5 12 11.5 14.5'/></g></svg>");
+--filetype-mask-icon-video:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='4' y='4' width='16' height='16' rx='1.5' ry='1.5' fill='white'/><rect x='7' y='7' width='7.6' height='10' rx='0.9' ry='0.9' fill='black'/><path fill='black' d='M14.3 10l3-1.5v7l-3-1.5z'/></svg>");
+--filetype-mask-icon-audio:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='4' y='4' width='16' height='16' rx='1.5' ry='1.5' fill='white'/><path fill='black' stroke='black' stroke-width='1' stroke-linejoin='round' d='M8.7 10v4h2.8l3.8 3.8V6.2L11.5 10Z'/></svg>");
+--filetype-mask-icon-doc:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='M6 2h9l5 5v15H6z'/><g fill='none' stroke='black' stroke-width='1' stroke-linecap='round'><path d='M8.5 11h9'/><path d='M8.5 14h9'/><path d='M8.5 17h9'/></g></svg>");
+}
+
+.filetype-mask-icon{
+  display:inline-block;
+  background:currentColor;
+  mask:var(--icon) center / contain no-repeat;
+  -webkit-mask:var(--icon) center / contain no-repeat;
+  mask-mode:luminance;
+}

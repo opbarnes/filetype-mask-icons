@@ -1,0 +1,25 @@
+{
+  "name": "filetype-mask-icons",
+  "version": "1.0.0",
+  "description": "A tiny set of file-type icons implemented as CSS mask images, designed to inherit color from currentColor for easy theming and dark-mode support.",
+  "keywords": [
+    "css",
+    "icons",
+    "mask",
+    "filetype",
+    "file-icons",
+    "filetype-icons",
+    "css-mask",
+    "svg-icons",
+    "minimal-icons"
+  ],
+  "author": "O. Patrick Barnes",
+  "license": "MIT",
+  "files": [
+    "css"
+  ],
+  "style": "css/filetype-mask-icons.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
