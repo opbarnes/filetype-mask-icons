@@ -194,9 +194,22 @@ Example:
 .theme-dark {
   color: white;
 }
+
+.size24{
+  width:24px;height:24px;
+}
+
 ```
 
-The icon will automatically inherit the color.
+```html
+<div class="theme-light">
+  <div class="filetype-mask-icon size24"
+     style="--icon:var(--filetype-mask-icon-folder);">
+  </div>
+</div>
+```
+
+The icon will automatically inherit the `color`.
 
 ---
 
@@ -211,16 +224,6 @@ The icon will automatically inherit the color.
 --filetype-mask-icon-video
 --filetype-mask-icon-audio
 --filetype-mask-icon-doc
-```
-
----
-
-# Example
-
-```html
-<div class="filetype-mask-icon"
-     style="--icon:var(--filetype-mask-icon-folder); width:32px; height:32px;">
-</div>
 ```
 
 ---
@@ -240,12 +243,12 @@ You can set the size inline:
 Or define your own CSS classes:
 
 ```css
-.icon-small{
+.icon-small {
   width:16px;
   height:16px;
 }
 
-.icon-large{
+.icon-large {
   width:48px;
   height:48px;
 }
