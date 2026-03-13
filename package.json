@@ -15,6 +15,11 @@
   ],
   "author": "O. Patrick Barnes",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opbarnes/filetype-mask-icons.git"
+  },
+  "homepage": "https://github.com/opbarnes/filetype-mask-icons",
   "files": [
     "css"
   ],
